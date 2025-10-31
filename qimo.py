@@ -131,7 +131,7 @@ def xiangmu_page():
 # -------------------- 专业数据分析页 --------------------
 def zhuanye_page():
     st.markdown('# 🎓专业数据分析')
-    df = pd.read_csv('D:\streamlit_env\student_data_adjusted_rounded.csv')
+    df = pd.read_csv('shuju/student_data_adjusted_rounded.csv')
     st.subheader("1. 各专业男女性别比例")
     col1, col2 = st.columns([2, 1])
     with col1:
